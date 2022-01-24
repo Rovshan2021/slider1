@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+button{
+    background: none;
+    outline: none;
+    border: none;
+}
+i{
+    font-size: 35px;
+    cursor: pointer;
+    text-shadow: 0 2px 5px black;
+    color: white;
+}
+img{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.icons{
+    top: 50%;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#xett{
+    height: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
